@@ -1,0 +1,240 @@
+
+/*Top Section stars*/
+@font-face 
+{
+    font-family: "master_of_break";
+    src: url(fonts/master_of_break.ttf) format("truetype");
+    font-family: "basictitlefont";
+    src: url(fonts/basictitlefont.ttf) format("truetype");
+}
+.cover
+{
+    background: url(img/cover-1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    Background-color: rgba(0,0,0,0.4);
+}
+.nav-bar a
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    font-family: "basictitlefont";
+    font-size: 18px;
+}
+.home
+{
+    text-align: center;
+    padding-top: 14%;
+}
+.home .name
+{
+    padding-bottom: 6%;
+}
+
+.name img
+{
+    height:200px;
+}
+
+.cover .name h1
+{ 
+    font-family: "master_of_break", Verdana, Tahoma;
+    color:#fff;
+}
+
+.about-me, .work, .linkedin, .connect
+{
+    padding:8% 0;
+}
+
+.about-me .text
+{
+    font-size:14px;
+    text-align: justify;
+    line-height: 24px;
+    color: #737373;
+    letter-spacing: 0.5px;
+}
+.about-me .heading, .work .heading, .connect .heading
+{
+    font-size:16px;
+    color: #404040;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+.linkedin .text
+{
+    font-size:14px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.linkedin .heading
+{
+    color: #fff;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+
+
+.linkedin
+{
+    background: url(img/cover-3.jpg) no-repeat 15% 10% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work
+{
+    background: #f7f7f7;
+}
+.work .title
+{
+    font-size:14px;
+    padding-top: 1%;
+    color: #404040;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+.work p
+{
+    font-size:14px;
+    text-align: justify;
+    line-height: 24px;
+    color: #737373;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+.proj-row
+{
+    padding-bottom: 2%;
+}
+.project
+{
+    padding:2%;
+    -webkit-transition: background-color 0.15s ease-out;
+    -moz-transition: background-color 0.15s ease-out;
+    -o-transition: background-color 0.15s ease-out;
+    transition: background-color 0.15s ease-out;
+}
+.project:hover
+{
+    background-color: #eee;
+}
+.project p
+{
+    
+    -webkit-transition: 0.15s ease-out; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: 0.15s ease-out;
+    transition-timing-function: linear;
+}
+.project:hover p
+{
+    padding-top: 3%;
+}
+.connect
+{
+    text-align:center;
+    background: #270722;
+    color: #fff;
+}
+.connect .heading
+{
+    color: #fff;
+}
+.heading
+{
+    padding-bottom:5%;
+    text-align: center;
+    font-size: 18px !important;
+    letter-spacing: 0.75px;
+}
+.connect .nav-footer a
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    font-size: 12px;
+}
+.msg
+{
+    font-weight: 100;
+    font-size: 12px;
+    opacity:0.5;
+    padding-top: 2%;
+}
+.email
+{
+    background: #938391;
+    padding: 1%;
+    opacity:0.85;
+}
+.email h5
+{
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 200;
+    opacity:0.85;
+}
+
+
+
+
+/*--------------------*/
+
+.project-1
+{
+    height:100%;
+}
+.project-1 .cover
+{
+    background: url(img/project-1-cover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.top-nav
+{
+    background: rgba(0,0,0,0.6);
+    padding: 3% 0;
+    position: fixed;
+    z-index: 100;
+}
+.top-nav a
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+}
+.desc p
+{
+    padding-top:30%;
+    text-align: center;
+    color: #fff;
+}
+.project-desc
+{
+    padding: 8% 0;
+    text-align: center;
+}
+.project-desc img, .project-desc h5
+{
+    padding: 2% 0;
+}
+.prev-next
+{
+    background: #eee;
+    padding: 5% 0;
+    text-align: center;
+}
